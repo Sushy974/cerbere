@@ -5,6 +5,12 @@ Toutes les modifications notables de ce projet seront documentées dans ce fichi
 Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/),
 et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
+## [0.1.3+4] - 2025-02-24
+
+### Modifié
+
+- README : image en HTML centrée (raw URL, largeur 400px).
+
 ## [0.1.2+3] - 2025-02-24
 
 ### Modifié
