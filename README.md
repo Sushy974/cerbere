@@ -181,3 +181,7 @@ match /_cerbere_utilisateur/{document=**} {
 ## Licence
 
 Voir le fichier [LICENSE](LICENSE) à la racine du dépôt.
+
+---
+
+**📦 Publier** : `dart pub publish`
