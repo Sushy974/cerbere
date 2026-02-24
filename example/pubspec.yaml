@@ -1,0 +1,12 @@
+name: cerbere_example
+description: Exemple d'utilisation du package cerbere.
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cerbere:
+    path: ../

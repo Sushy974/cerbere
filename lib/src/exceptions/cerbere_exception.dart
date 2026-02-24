@@ -6,7 +6,7 @@ class CerbereException implements Exception {
   /// Code d'erreur optionnel
   final String? code;
 
-  /// {@macro cerbere_exception}
+  /// Crée une exception avec [message] et optionnellement un [code] pour le diagnostic.
   CerbereException(this.message, {this.code});
 
   @override

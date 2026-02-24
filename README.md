@@ -1,5 +1,7 @@
 # Cerbère
 
+![Cerbère](https://github.com/nathanchateau/cerbere/raw/main/assets/images/cerbere.png)
+
 Package Dart/Flutter pour gérer les rôles et les droits avec Firebase Auth et Firestore.
 
 ## Description
@@ -11,7 +13,7 @@ Cerbère est un package qui permet de gérer un système de rôles et de droits 
 - Des **widgets conditionnels** selon les droits (`CerbereWidgetVerifie`)
 - Des **repositories** Firestore pour rôles et utilisateurs (`_cerbere_roles`, `_cerbere_utilisateur`)
 
-**Pour gérer les droits** (création et édition des rôles, attribution des rôles aux utilisateurs via une interface d’administration), utilisez le package complémentaire [**cerbere_admin**](https://pub.dev/packages/cerbere_admin).
+**Pour gérer tout cela** (droits, rôles, utilisateurs) via une interface d’administration, utilisez le package complémentaire [**cerbere_admin**](https://pub.dev/packages/cerbere_admin) sur Pub.dev.
 
 ## Installation
 
@@ -152,7 +154,7 @@ CerbereWidgetVerifie(
 
 ### Création de rôles et attribution aux utilisateurs
 
-Pour **gérer les droits** (créer/éditer les rôles, attribuer les rôles aux utilisateurs), utilisez le package complémentaire **cerbere_admin**, qui fournit une interface d’administration. Sinon, les rôles peuvent être créés et assignés via les repositories exposés par ce package (`CerbereRoleRepository`, `CerbereUtilisateurRepository`) ou directement dans Firestore.
+Pour **gérer tout cela** (créer/éditer les rôles, attribuer les rôles aux utilisateurs), utilisez le package complémentaire [**cerbere_admin**](https://pub.dev/packages/cerbere_admin), qui fournit une interface d’administration (pages utilisateurs, rôles, droits). Sinon, les rôles peuvent être créés et assignés via les repositories exposés par ce package (`CerbereRoleRepository`, `CerbereUtilisateurRepository`) ou directement dans Firestore.
 
 ## Sécurité
 
