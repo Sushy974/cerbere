@@ -1,11 +1,14 @@
 name: cerbere
-description: package qui gere les roles et les autorisation avec firebase (Cerbère)
+description: Gestion des rôles et autorisations Flutter avec Firebase Auth et Firestore. Vérification de permissions, widgets conditionnels et modèles (Cerbère).
 version: 0.1.0+1
-publish_to: none
+
+repository: https://github.com/nathanchateau/cerbere
+documentation: https://github.com/nathanchateau/cerbere#readme
+issue_tracker: https://github.com/nathanchateau/cerbere/issues
 
 environment:
   sdk: ^3.9.0
-  flutter: ^3.35.0
+  flutter: ">=3.35.0"
 
 dependencies:
   flutter:

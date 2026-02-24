@@ -59,7 +59,7 @@ class CerbereDroitsRegistry {
     if (_droits == null) {
       throw CerbereException(
         'Les droits n\'ont pas été initialisés. '
-        'Utilisez HeraclesInitWidget ou HeraclesAdminInitWidget '
+        'Utilisez CerbereInitWidget (ou CerbereAdminInitWidget si applicable) '
         'avec la liste des droits.',
         code: 'DROITS_NON_INITIALISES',
       );
