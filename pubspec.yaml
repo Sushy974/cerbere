@@ -1,0 +1,22 @@
+name: cerbere
+description: package qui gere les roles et les autorisation avec firebase (Cerbère)
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+  flutter: ^3.35.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  flutter_bloc: ^9.1.0
+  equatable: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^10.0.0

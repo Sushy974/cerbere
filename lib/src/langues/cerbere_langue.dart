@@ -1,0 +1,4 @@
+enum CerbereLangue {
+  fr,
+  en,
+}
