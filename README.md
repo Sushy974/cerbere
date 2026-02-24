@@ -1,6 +1,6 @@
 # Cerbère
 
-![Cerbère](https://github.com/nathanchateau/cerbere/raw/main/assets/images/cerbere.png)
+![Cerbère](https://github.com/Sushy974/cerbere/blob/main/assets/images/cerbere.png)
 
 Package Dart/Flutter pour gérer les rôles et les droits avec Firebase Auth et Firestore.
 
