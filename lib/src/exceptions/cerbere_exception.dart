@@ -10,5 +10,6 @@ class CerbereException implements Exception {
   CerbereException(this.message, {this.code});
 
   @override
-  String toString() => 'CerbereException: $message${code != null ? ' (code: $code)' : ''}';
+  String toString() =>
+      'CerbereException: $message${code != null ? ' (code: $code)' : ''}';
 }

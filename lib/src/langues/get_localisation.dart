@@ -17,8 +17,7 @@ class GetLocalisation {
         // Page gestion des utilisateurs
         CerbereLangueVariable.gestionDesUtilisateurs =>
           'Gestion des utilisateurs',
-        CerbereLangueVariable.filtrerUtilisateurs =>
-          'Filtrer les utilisateurs',
+        CerbereLangueVariable.filtrerUtilisateurs => 'Filtrer les utilisateurs',
         CerbereLangueVariable.rechercherParEmail => 'Rechercher par e-mail',
         CerbereLangueVariable.titreUtilisateurs => 'Utilisateurs',
         CerbereLangueVariable.titreRoles => 'Rôles',
@@ -57,8 +56,7 @@ class GetLocalisation {
 
         // Messages généraux
         CerbereLangueVariable.erreur => 'Erreur',
-        CerbereLangueVariable.uneErreurEstSurvenue =>
-          'Une erreur est survenue',
+        CerbereLangueVariable.uneErreurEstSurvenue => 'Une erreur est survenue',
         CerbereLangueVariable.reessayer => 'Réessayer',
         CerbereLangueVariable.annuler => 'Annuler',
         CerbereLangueVariable.enregistrer => 'Enregistrer',
@@ -91,8 +89,7 @@ class GetLocalisation {
         CerbereLangueVariable.gestionDesRoles => 'Role Management',
         CerbereLangueVariable.creerUnRole => 'Create a role',
         CerbereLangueVariable.aucunRoleMessage => 'No role',
-        CerbereLangueVariable.creezVotrePremierRole =>
-          'Create your first role',
+        CerbereLangueVariable.creezVotrePremierRole => 'Create your first role',
         CerbereLangueVariable.droits => 'right(s)',
         CerbereLangueVariable.supprimerLeRole => 'Delete role',
         CerbereLangueVariable.etesVousSurDeVouloirSupprimerLeRole =>

@@ -7,8 +7,8 @@ class RecupereNomRoleUtilisateurUsecase {
   RecupereNomRoleUtilisateurUsecase({
     required CerbereUtilisateurRepository cerbereUtilisateurRepository,
     required CerbereRoleRepository cerbereRoleRepository,
-  })  : _cerbereUtilisateurRepository = cerbereUtilisateurRepository,
-        _cerbereRoleRepository = cerbereRoleRepository;
+  }) : _cerbereUtilisateurRepository = cerbereUtilisateurRepository,
+       _cerbereRoleRepository = cerbereRoleRepository;
 
   final CerbereUtilisateurRepository _cerbereUtilisateurRepository;
   final CerbereRoleRepository _cerbereRoleRepository;
@@ -20,12 +20,12 @@ class RecupereNomRoleUtilisateurUsecase {
   Future<String?> execute(String userUid) async {
     if (userUid.isEmpty) return null;
 
-    final cerbereUser =
-        await _cerbereUtilisateurRepository.getUtilisateurByUid(userUid);
+    final cerbereUser = await _cerbereUtilisateurRepository.getUtilisateurByUid(
+      userUid,
+    );
     if (cerbereUser == null) return null;
 
-    final role =
-        await _cerbereRoleRepository.getRoleByUid(cerbereUser.roleUid);
+    final role = await _cerbereRoleRepository.getRoleByUid(cerbereUser.roleUid);
     return role?.nom;
   }
 }
