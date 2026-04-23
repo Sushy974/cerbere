@@ -1,7 +1,9 @@
 import 'package:cerbere/src/langues/cerbere_langue.dart';
 import 'package:cerbere/src/langues/cerbere_langue_variable.dart';
 
+/// Fournisseur de traductions interne au package Cerbère.
 class GetLocalisation {
+  /// Retourne la traduction de [variable] dans la [langue] demandée.
   static String getLocalisation(
     CerbereLangue langue,
     CerbereLangueVariable variable,

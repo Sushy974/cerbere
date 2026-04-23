@@ -5,6 +5,22 @@ Toutes les modifications notables de ce projet seront documentées dans ce fichi
 Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/),
 et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
+## [0.2.0+6] - 2026-04-23
+
+### Ajouté
+
+- `RecupereNomRoleUtilisateurUsecase` pour récupérer le nom du rôle assigné à un utilisateur.
+- Registre de langues `CerbereLangueRegistry` et enum `CerbereLangueVariable` pour l'internationalisation des libellés (fr / en).
+- Mixin `CerbereVerifiable` pour appliquer la vérification de permissions à n'importe quelle classe.
+- Extension `CerbereWidgetExtension` (`widget.cerbereVerifie(cle)`) pour appliquer un contrôle de droit à n'importe quel widget.
+
+### Modifié
+
+- `CerbereInitWidget` : enregistrement cohérent des droits et de la langue dans leurs registres respectifs.
+- `CerbereDroitsRegistry` : validation des clés uniques et cohérence entre init widgets.
+- `CerbereException` : gestion simplifiée du code et du message d'erreur.
+- Modèles (`CerbereDroit`, `CerbereRole`, `CerbereUtilisateur`) : dartdoc complétée sur les constructeurs, factories et champs publics.
+
 ## [0.1.4+5] - 2025-02-24
 
 ### Ajouté

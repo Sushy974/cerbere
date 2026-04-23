@@ -5,11 +5,7 @@ import '../models/cerbere_droit.dart';
 ///
 /// Ce registry permet de centraliser la liste des droits et de vérifier
 /// la cohérence si plusieurs widgets d'initialisation sont utilisés.
-///
-/// Cette classe ne doit pas être instanciée ; utilisez les méthodes statiques.
 class CerbereDroitsRegistry {
-  CerbereDroitsRegistry._();
-
   static List<CerbereDroit>? _droits;
   static Map<String, CerbereDroit>? _droitsByCle;
 
@@ -63,7 +59,7 @@ class CerbereDroitsRegistry {
     if (_droits == null) {
       throw CerbereException(
         'Les droits n\'ont pas été initialisés. '
-        'Utilisez CerbereInitWidget (ou CerbereAdminInitWidget si applicable) '
+        'Utilisez HeraclesInitWidget ou HeraclesAdminInitWidget '
         'avec la liste des droits.',
         code: 'DROITS_NON_INITIALISES',
       );
