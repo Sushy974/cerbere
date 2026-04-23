@@ -37,7 +37,7 @@ import '../models/cerbere_droit.dart';
 /// }
 /// ```
 class CerbereInitWidget extends StatelessWidget {
-  /// Crée le widget d'initialisation avec [firebaseAuth], [firestore], la liste [droits] et le [child].
+  /// {@macro cerbere_init_widget}
   const CerbereInitWidget({
     required this.child,
     required this.firebaseAuth,

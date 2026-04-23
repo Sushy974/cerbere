@@ -20,6 +20,7 @@ abstract class CerbereUtilisateurRepository {
   /// Supprime le rôle d'un utilisateur
   Future<void> removeRoleFromUser(String utilisateurUid);
 
+  /// Indique si l'utilisateur est marqué comme administrateur.
   Future<bool> isAdmin(String utilisateurUid);
 }
 

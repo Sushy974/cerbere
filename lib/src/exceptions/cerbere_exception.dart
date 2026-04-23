@@ -6,9 +6,10 @@ class CerbereException implements Exception {
   /// Code d'erreur optionnel
   final String? code;
 
-  /// Crée une exception avec [message] et optionnellement un [code] pour le diagnostic.
+  /// {@macro cerbere_exception}
   CerbereException(this.message, {this.code});
 
   @override
-  String toString() => 'CerbereException: $message${code != null ? ' (code: $code)' : ''}';
+  String toString() =>
+      'CerbereException: $message${code != null ? ' (code: $code)' : ''}';
 }

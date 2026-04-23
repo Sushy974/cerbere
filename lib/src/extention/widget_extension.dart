@@ -1,11 +1,15 @@
-// ignore_for_file: document_ignores
-
 import 'package:flutter/widgets.dart';
 import 'package:cerbere/cerbere.dart';
 
-// ignore: public_member_api_docs
+/// Extension sur [Widget] pour appliquer une vérification de droits
+/// Cerbère sans avoir à envelopper manuellement le widget dans un
+/// [CerbereWidgetVerifie].
 extension CerbereWidgetExtension on Widget {
-  // ignore: public_member_api_docs
+  /// Rend ce widget conditionnel à la [cle] de droit spécifiée.
+  ///
+  /// Si l'utilisateur possède le droit, le widget est affiché tel quel.
+  /// Sinon, [deniedWidget] est affiché (ou un [SizedBox.shrink] par défaut).
+  /// Pendant la vérification, [loadingWidget] est affiché.
   Widget cerbereVerifie(
     String cle, {
     Widget? deniedWidget,

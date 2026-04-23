@@ -1,8 +1,8 @@
-/// Langues supportées par le package Cerbère pour la localisation.
+/// Langues supportées par Cerbère pour la traduction des libellés.
 enum CerbereLangue {
-  /// Français
+  /// Français (langue par défaut).
   fr,
 
-  /// Anglais
+  /// Anglais.
   en,
 }

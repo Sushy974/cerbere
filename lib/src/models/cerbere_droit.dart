@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 
 /// Modèle représentant un droit dans Cerbere
 class CerbereDroit extends Equatable {
-  /// Crée un droit avec [cle], [nom], [description] et optionnellement [cleDroitLie].
+  /// {@macro cerbere_droit}
   const CerbereDroit({
     required this.cle,
     required this.nom,
